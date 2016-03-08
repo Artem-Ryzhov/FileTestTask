@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4" >
+
+
+    <servlet>
+        <servlet-name>ShowFile</servlet-name>
+        <servlet-class>servlets.ShowFile</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>ShowFile</servlet-name>
+        <url-pattern>/ShowFile</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>JavaStringToJson</servlet-name>
+        <servlet-class>servlets.JavaStringToJson</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>JavaStringToJson</servlet-name>
+        <url-pattern>/JavaStringToJson</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>
