@@ -18,7 +18,7 @@ Such call returns all strings that contains "Page" with length <= 10 with total 
 Tech Stack:
 
 Servlet 3.1
-Java 7
+Java 8
 Tomcat 8
-Json-simple-1.1.1
-Gson-2.3.1
+Json
+Gson
